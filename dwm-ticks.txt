@@ -1,0 +1,26 @@
+## Packets ##
+
+xorg xorg-xinit dmenu kitty feh leafpad lxappearance mc ranger picom papirus-icon-theme plata-theme fonts-roboto-ttf acip thunar git wget
+
+## Download packets ##
+
+- dwm         https://dwm.suckless.org
+- st          https://st.suckless.org
+- slstatus    https://tools.suckless.org/slstatus/
+
+## create dwm.desktop ##
+
+cat /usr/share/xsessions/dwm.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=dwm
+Comment=Dynamic window manager
+Exec=dwm
+Icon=dwm
+Type=XSession
+
+## In case of installing picom, for its correct operation; it is configured in:
+doas nano /usr/share/examples/picom/picom.sample.conf
+    -- On Transparency/Opacity:
+    inactive-opacity-override = true
+    # inactive-opacity-override = false;
