@@ -24,3 +24,6 @@ doas nano /usr/share/examples/picom/picom.sample.conf
     -- On Transparency/Opacity:
     inactive-opacity-override = true
     # inactive-opacity-override = false;
+
+## On the las config.txt ##
+This is how modified dwm should look like, if you do it following the guide, you will get results.
