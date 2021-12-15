@@ -1,6 +1,6 @@
 ## Packets ##
 
-xorg xorg-xinit dmenu kitty feh leafpad lxappearance mc ranger picom papirus-icon-theme plata-theme fonts-roboto-ttf acip thunar git wget
+xorg dmenu libXinerama-devel libXft-devel feh leafpad lxappearance mc ranger picom papirus-icon-theme plata-theme fonts-roboto-ttf acip Thunar thunar-volman git wget
 
 ## Download packets ##
 
