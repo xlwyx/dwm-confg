@@ -27,3 +27,7 @@ doas nano /usr/share/examples/picom/picom.sample.conf
 
 ## On the las config.txt ##
 This is how modified dwm should look like, if you do it following the guide, you will get results.
+
+## The scripts for dmenu after compilation:
+The scripts you would found on the repo of github.com/xlwyx/dot_files/dmenu_custom & github.com/xlwyx/dot_files/dmenu_scripts
+
